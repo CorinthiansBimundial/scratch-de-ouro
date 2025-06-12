@@ -1,0 +1,35 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #ffffff;
+  color: #111;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #009c3b;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 2em;
+}
+
+footer {
+  text-align: center;
+  background-color: #002776;
+  color: white;
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
