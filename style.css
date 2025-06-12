@@ -33,3 +33,37 @@ footer {
   bottom: 0;
   width: 100%;
 }
+.campo {
+  width: 90%;
+  max-width: 500px;
+  background: linear-gradient(to bottom, #006400, #228B22);
+  border: 3px solid #fff;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px auto;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.campo div {
+  margin: 5px 0;
+}
+
+.goleiro {
+  background-color: #004400;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.zaga, .meio, .ataque {
+  display: flex;
+  justify-content: space-around;
+}
+
+.zaga div, .meio div, .ataque div {
+  background-color: rgba(255,255,255,0.1);
+  padding: 4px;
+  border-radius: 4px;
+  width: 22%;
+}
