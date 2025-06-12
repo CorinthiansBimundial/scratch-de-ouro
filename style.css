@@ -1,11 +1,23 @@
+/* Fundo verde oficial da bandeira para todo o site */
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: #ffffff;
+  background-color: #009B3A; /* verde da bandeira */
   color: #111;
   margin: 0;
   padding: 0;
 }
 
+/* Container branco centralizado para o conteúdo principal */
+.container {
+  background-color: white;
+  max-width: 900px;
+  margin: 40px auto; /* centralizado com margem */
+  padding: 20px 30px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2); /* sombra suave */
+  border-radius: 10px;
+}
+
+/* Cabeçalho */
 header {
   background-color: #009c3b;
   color: white;
@@ -13,6 +25,7 @@ header {
   text-align: center;
 }
 
+/* Navegação */
 nav a {
   margin: 0 10px;
   color: white;
@@ -20,10 +33,12 @@ nav a {
   font-weight: bold;
 }
 
+/* Conteúdo principal dentro do container */
 main {
-  padding: 2em;
+  padding: 2em 0; /* só espaçamento vertical */
 }
 
+/* Rodapé fixo */
 footer {
   text-align: center;
   background-color: #002776;
@@ -33,6 +48,8 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
+/* Campo tático */
 .campo {
   width: 90%;
   max-width: 500px;
